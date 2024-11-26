@@ -1,0 +1,9 @@
+<div class="container">
+    <h2>Catégories</h2>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let category of categories">
+        <a [routerLink]="['/characters', category]">{{ category }}</a>
+      </li>
+    </ul>
+  </div>
+  

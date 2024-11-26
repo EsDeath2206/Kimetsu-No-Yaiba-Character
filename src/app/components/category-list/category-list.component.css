@@ -1,0 +1,28 @@
+ul.list-group {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 0;
+    list-style: none;
+  }
+  
+  ul.list-group li {
+    margin-bottom: 10px;
+    border: 2px solid #38bdf8;
+    border-radius: 10px;
+    background: rgba(15, 23, 42, 0.7);
+    transition: transform 0.2s, box-shadow 0.3s ease;
+  }
+  
+  ul.list-group li a {
+    display: block;
+    padding: 15px 20px;
+    font-size: 1.2rem;
+    color: #f8fafc;
+    text-align: center;
+  }
+  
+  ul.list-group li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
+  

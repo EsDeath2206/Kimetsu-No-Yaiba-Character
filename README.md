@@ -1,27 +1,59 @@
-# DemonSlayerCharacters
+# Demon Slayer Characters App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+Une application Angular pour afficher les personnages de **Demon Slayer** par catégorie avec leurs images.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🚀 Fonctionnalités
+- Affiche les personnages par catégorie.
+- Utilise des URLs pour afficher les images.
+- Design moderne avec CSS personnalisé.
+- Responsive pour mobile et tablette.
 
-## Code scaffolding
+---
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🛠️ Installation
 
-## Build
+1. Clonez ce dépôt :
+   ```bash
+   git clone https://github.com/votre-utilisateur/demon-slayer-characters.git
+   cd demon-slayer-characters
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Structure du Projet
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── category-list/
+│   │   │   ├── category-list.component.ts
+│   │   │   ├── category-list.component.html
+│   │   │   └── category-list.component.css
+│   │   ├── character-list/
+│   │   │   ├── character-list.component.ts
+│   │   │   ├── character-list.component.html
+│   │   │   └── character-list.component.css
+│   ├── models/
+│   │   └── character.model.ts
+│   ├── services/
+│   │   └── character.service.ts
+│   ├── app-routing.module.ts
+│   ├── app.component.ts
+│   └── app.module.ts
+└── styles.css
+```
 
-## Running end-to-end tests
+## 🌟 Résultat
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Les catégories affichent une liste de liens cliquables.
+- Les personnages s'affichent avec leurs images et leurs noms, selon la catégorie.
 
-## Further help
+## 🖼️ Capture D'écran du Site :
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+![Pourfendeur](src/assets/pourfendeur.png)
+
+![Hashira](src/assets/hashira.png)
+
+![Demon](src/assets/demon.png)
+
