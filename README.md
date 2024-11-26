@@ -45,11 +45,11 @@ src/
 ```
 ---
 
-# 🌟 Résultat
+🌟 Résultat
 
 - Les catégories affichent une liste de liens cliquables.
 - Les personnages s'affichent avec leurs images et leurs noms, selon la catégorie.
-```
+
 ---
 
 
