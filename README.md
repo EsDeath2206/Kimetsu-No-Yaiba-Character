@@ -43,11 +43,14 @@ src/
 │   └── app.module.ts
 └── styles.css
 ```
+---
 
 # 🌟 Résultat
 
 - Les catégories affichent une liste de liens cliquables.
 - Les personnages s'affichent avec leurs images et leurs noms, selon la catégorie.
+
+---
 
 ## 🖼️ Capture D'écran du Site :
 
